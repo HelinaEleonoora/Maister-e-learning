@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #dd5e89, #f7bb97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rubik' sans-serif;
+    letter-spacing: .5px;
+    opacity: 4;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    background: rgba(255,255,255,.5);
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    color:  #3c4d6d;
+    margin: 20px 0 15px 0;
+}
+
+h4 {
+  margin: 200px 0 0 0;
+}
+
+main {
+    width: 550px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.tekst1, .tekst2, .tekst3 {
+    width: 110px;
+    height: 240px;
+    border-radius: 8px;
+    padding: 20px 20px 20px 50px;
+    margin: 25px 0 0 0;
+    background-color: #000;
+    background: rgba(255,255,255,.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: all .5s;
+    color: #777;
+    text-transform: uppercase;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 90px;
+  }
+  
+  .tekst1 {
+    background-image: url(leraar2.png);
+  }
+
+  .tekst2 {
+    background-image: url(diploma2.png);
+  }
+
+  .tekst3 {
+    background-image: url(les2.png);
+  }
+
+  .tekst3:hover {
+    background-color: #3c4d6d;
+    color: white;
+    background-image: url(les-wit.png);
+  }
+
+  .tekst2:hover {
+    background-color: #3c4d6d;
+    color: white;
+    background-image: url(diploma-wit.png);
+  }
+
+  .tekst1:hover {
+    background-color: #3c4d6d;
+    color: white;
+    background-image: url(leraar-wit.png);
+  }
+
+  .login {
+    margin: 3rem 0 0 0;
+    width: 100%;
+  }
+
+  .login button {
+    border: none;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #2d3b55;
+    color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    letter-spacing: 0.2px;
+    outline: 0;
+    transition: all .3s;
+  }
+
+  .login button:hover {
+    background-color: #3c4d6d;
+  }
